@@ -1,15 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/// <summary>
-/// 
-/// Scrip in place to move the shield between a block and platform mode.
-/// This is primarily setup for the prototype. During actual gameplay this
-/// will need to be changed to just affect the collider as animations
-/// will move the actual shield image.
-/// 
-/// </summary>
-
 public class ShieldPositionSwap : MonoBehaviour {
 
     private bool isBlocking;

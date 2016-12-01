@@ -35,9 +35,9 @@ public class MakeThingsMove : MonoBehaviour {
     private bool activateObject = false;
     private bool activateObject2 = false;
     private bool canUseSwitch = true;
-#pragma warning disable CS0414 // The field 'MakeThingsMove.autoOrNotAuto' is assigned but its value is never used
+
     private bool autoOrNotAuto = false;
-#pragma warning restore CS0414 // The field 'MakeThingsMove.autoOrNotAuto' is assigned but its value is never used
+
     private SwapCharacter currentCharacter;
 
     void Start()

@@ -13,7 +13,6 @@ public class GridManager : MonoBehaviour
     private Dictionary<int, Dictionary<int, Dictionary<int, Tile>>> gridTiles;
     private Dictionary<GameObject, Tile> gameObjectTileLookup;
 
-    // HACK: double check gridSize. This may need to be adjusted if its not encompassing stuff properly
     private float gridSize = 1.25f;
 
     private GameObject[] allFloorTiles;

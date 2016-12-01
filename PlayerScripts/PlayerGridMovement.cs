@@ -80,18 +80,10 @@ public class PlayerGridMovement : MonoBehaviour {
     private GridManager gridManager;
     private Vector3 direction = Vector3.zero;     
 
-#pragma warning disable CS0169 // The field 'PlayerGridMovement.gridAhead' is never used
     private Vector3 gridAhead;
-#pragma warning restore CS0169 // The field 'PlayerGridMovement.gridAhead' is never used
-#pragma warning disable CS0169 // The field 'PlayerGridMovement.gridRight' is never used
     private Vector3 gridRight;
-#pragma warning restore CS0169 // The field 'PlayerGridMovement.gridRight' is never used
-#pragma warning disable CS0169 // The field 'PlayerGridMovement.gridLeft' is never used
     private Vector3 gridLeft;
-#pragma warning restore CS0169 // The field 'PlayerGridMovement.gridLeft' is never used
-#pragma warning disable CS0169 // The field 'PlayerGridMovement.gridBack' is never used
     private Vector3 gridBack;
-#pragma warning restore CS0169 // The field 'PlayerGridMovement.gridBack' is never used
     private Vector3 desiredGrid;
     private Vector3 currentIndex;
     private float gridSize = 1.25f;

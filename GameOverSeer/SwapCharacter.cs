@@ -2,11 +2,6 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// 
-/// This script is setup to swap control between the robots to allow for the problem solving.
-/// 
-/// </summary>
 
 public class SwapCharacter : MonoBehaviour {
     [HideInInspector]

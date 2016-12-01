@@ -1,12 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/// <summary>
-/// 
-/// This code should be used with a trigger collider that the player can walk into and then hit a button to activate the bridge.
-/// 
-/// </summary>
-
 public class Switch : MonoBehaviour {
 
     [Header("Bridge to activate")]

@@ -9,9 +9,7 @@ public class BoxAheadTrigger : MonoBehaviour {
 
     private SwapCharacter currentCharacter;
     private GridManager gridManager;
-#pragma warning disable CS0414 // The field 'BoxAheadTrigger.boxFound' is assigned but its value is never used
     private bool boxFound = false;
-#pragma warning restore CS0414 // The field 'BoxAheadTrigger.boxFound' is assigned but its value is never used
     private bool canPush = true;
     private float gridSize = 1.25f;
     
